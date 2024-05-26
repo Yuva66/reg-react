@@ -60,8 +60,8 @@ const App = () =>{
               isValid = false;
             }
 
-            if (!validateEmail(email)) {
-              cemailError.textContent="";
+            if (cemail === "") {
+              cemailError.textContent="Please re-enter your email";
               isValid=false;
             }
 
