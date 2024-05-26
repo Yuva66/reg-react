@@ -1,0 +1,90 @@
+.App{
+  height: 800px;
+  width: 100%;
+  background-image: url(./assets/img1.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  background-color: white;
+  height: 744px;
+  width: 80%;
+  display: inline-flex;
+  border-radius: 10px;
+}
+.title{
+  margin: 50px 0 0 140px;
+  color: grey;
+}
+.col1{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.col1 img{
+  height: 400px;
+}
+.col1 #img3{
+  margin-top: 10px;
+  height: 100px;
+}
+.col2 .data{
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.input input{
+  border-radius: 5px;
+  border: 1px solid lightslategray;
+  margin-top: 5px;
+  font-size: 15px;
+  height: 25px;
+  padding: 0 5px;
+}
+.input label{
+  color: lightslategray;
+}
+.checkbox{
+  display: flex;
+  margin: 15px 0 0 80px;
+  gap: 5px;
+  color: black;
+}
+.checkbox input{
+  border: 1px solid lightslategray;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  appearance: none;    
+}
+.submit button{
+  background-color: #1855a1;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: large;
+  border-radius: 10px;
+  margin: 12px 0 0 180px;
+}
+span{
+  color: red;
+  font-size: small;
+}
+#checkerror{
+  margin-left: 80px;
+}
